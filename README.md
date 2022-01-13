@@ -2,6 +2,7 @@
 pytLoc is a python tool that locks python source files using a one time pad lock. It helps to securely storing and sharing python source files. <br/>
          **Author**: [Gilda Bansimba](https://github.com/GildaRech/GildaRech)<br/>
          **usage**: **`from pytLoc import pytLoc`**<br/>
+         **Python Package Index**: [Download / view on pypi](https://pypi.org/project/pytLoc/) <br>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **`pytLoc.pytLoc(*args).[method]`** <br/>
          Options and methods. <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This class represents the heart of pytLoc.<br/>
