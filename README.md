@@ -47,5 +47,5 @@ pytLoc is a python tool that locks python source files using a one time pad lock
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;to DE-obfuscatE all python files located in the entire drive partition with the one time pad generated from the key "hello",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--> ***`pytLoc.pytLoc("***").unlock("hello)`*** which generates the files "UNLOCKED....py" in wherever directory or sub-directory where locked python files are found.<br/>
 
-     NOTE: when calling pytLoc withe parameter without parameter delete or with parameter delete=False, (E.g `pytLoc.pytLoc("file1.py").loc(key)` or <br/>
-     `pytLoc.pytLoc("file1.py", delete=False).loc(key)` ), the original files are not deleted. and with parameter delete=True, original files are deleted <br/>
+     NOTE: when calling pytLoc without parameter `delete` or with parameter `delete=False`, (E.g `pytLoc.pytLoc("file1.py").loc(key)` or <br/>
+     `pytLoc.pytLoc("file1.py", delete=False).loc(key)` ), the original files are not deleted. and with parameter `delete=True`, original files are deleted <br/>
